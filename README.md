@@ -9,7 +9,6 @@
 + Spring Dev Tools
 + JWT
 
-  
 # Configuration Steps:
 
 ### Clone the Application:
