@@ -1,0 +1,15 @@
+package com.projects.jwt_security_v61.auth.messages.requests;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class LoginRequest {
+    private String email;
+    private String password;
+}
